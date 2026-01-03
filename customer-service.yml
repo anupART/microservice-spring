@@ -4,8 +4,6 @@ spring:
 
   datasource:
     url: jdbc:mysql://localhost:3306/customer_master
-    username: root        # change if different
-    password: Anup@2242       # change if different
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
