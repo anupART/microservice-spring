@@ -1,10 +1,19 @@
+# Common configuration for all microservices
 global:
   message: Welcome to Global Microservices Environment!!
 
+# Logging configuration shared by all services
 logging:
   level:
     root: INFO
 
+# Eureka discovery configuration (used by all services)
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# Actuator endpoints configuration (common for monitoring)
 management:
   endpoints:
     web:
