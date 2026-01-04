@@ -14,4 +14,4 @@ global:
   message: Welcome to customer service dev environment!!
 
 server:
-  port: 8802
+  port: 8082
