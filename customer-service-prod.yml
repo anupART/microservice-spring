@@ -1,5 +1,6 @@
 global:
   message: Welcome to customer service production environment!!
+
 server:
   port: 8803
 message: Hello from Production!
